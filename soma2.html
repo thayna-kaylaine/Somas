@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> resultado das notas</title>
+	<link rel="stylesheet" type="text/css" href="operacao.css">
+</head>
+<body>
+	<div class="texto">
+		o seu resultado foi exibido em um alert
+	</div>
+	<script>
+	var num1 = prompt("digite um numero");
+	var num2 = prompt("digite outro numero para soma");
+	var num3 = prompt("digite um numero");
+	var num4 = prompt("digite outro numero para soma");
+	function soma(){ 
+		var res = parseInt (num1) + parseInt (num2) + parseInt (num3) + parseInt (num4);
+		alert("resultado da operacao " + res/4);
+		if (res >= 7) {
+			document.write("aprovado");
+		}else{
+			document.write("reprovado");
+		}
+		} soma();
+
+
+
+
+
+	</script>
+
+</body>
+</html>
